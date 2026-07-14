@@ -1,0 +1,13 @@
+{
+  "host": "192.168.4.185",
+  "port": 22,
+  "user": "linux",
+  "password": "linux",
+  "source_cmd": "source /opt/ros/humble/setup.bash && set -a && source /etc/environment.d/ros && set +a && source /opt/spiderrobot/setup.bash",
+  "call_timeout_sec": 15,
+  "gripper_params": {
+    "force": 30.0,
+    "position": 0.5,
+    "speed": 0.2
+  }
+}
